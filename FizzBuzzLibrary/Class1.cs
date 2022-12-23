@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace FizzBuzzLibrary
+﻿namespace FizzBuzzLibrary
 {
     public class Class1
     {
