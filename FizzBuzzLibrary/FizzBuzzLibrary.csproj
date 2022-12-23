@@ -4,4 +4,14 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="Library\" />
+    <None Remove="Library\Implementation\" />
+    <None Remove="Library\Abstraction\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Library\" />
+    <Folder Include="Library\Implementation\" />
+    <Folder Include="Library\Abstraction\" />
+  </ItemGroup>
 </Project>
